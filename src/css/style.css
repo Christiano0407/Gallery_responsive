@@ -20,13 +20,53 @@
 html {
     font-size:62.5%;
 }
-
-ul {
-    list-style: none;
-}
 a {
     text-decoration:none;
 }
 body {
     font-family: 'Nanum Gothic', sans-serif;
+}
+.logo {
+    width: 60px;
+    margin-top: -10px;
+}
+header {
+
+}
+.nav {
+    display: flex; 
+    justify-content:center; 
+    padding: 10px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+img {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.container img {
+    object-fit: cover;
+background-repeat: no-repeat; 
+background-position: center;
+background-size: cover;
+
+width: 250px;
+height: 200px;
+}
+.hero-section {
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
