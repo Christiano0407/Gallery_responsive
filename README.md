@@ -13,17 +13,23 @@ Build a responsive gallery portfolio using HTML and CSS ( Practice).
 - [Coolors](https://coolors.co/)
 
 # MediaQueries
-
+## Max-Width:
+- 1500px
+- 800px
 # Images
+- [Unsplash](https://unsplash.com/)
+- [tinyPng](https://tinypng.com/)
 
+# icons
+- [FontAwesome](https://fontawesome.com/)
 # CDN-JS
-
+- [CDN](https://cdnjs.com/)
 # Tools:
 - [Spline 3D](https://spline.design/)
 
 # MarkdownTools
-
-# Tips: 
+- [Markdown](https://markdown.es/)
+- [MdEditor](https://pandao.github.io/editor.md/en.html)
 
 # MIT License
 - [Choosealicense](https://choosealicense.com/)

@@ -62,6 +62,10 @@ img {
 /*  height: 100px; */
 /*  background-color: #011C40; */
 /* } */
+.hero-section {
+  /*   margin: 0 2rem; */
+/*   padding: 0 2rem; */
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -113,13 +117,48 @@ img {
 .footer {
     display: flex;
     justify-content: center;
-    position: fixed;
-    bottom:0;
-    padding: 30px;
+    padding: 30px 0;
     width: 100%; 
 }
 
          /*   MEDIAQUERIES */
+
+@media only screen and (max-width: 1500px) {
+
+    .footer {
+        position: fixed;
+        bottom: 0; 
+    }
+    .text {
+        font-size: 16px;
+        padding: 32px 16px;
+        color: white;
+    }
+}
+
 @media only screen and (max-width: 800px) {
+
+    body {
+        background-color: var(--clr-Three);
+    }
+    .extra-item {
+         display: none;
+    }
+    .container {
+    width: 100%;
+    }
+    .row .container:focus, 
+    .row .container:hover {
+      transform: none;
+      z-index: 1;
+    }
+    .footer {
+        position: relative;
+    }
+    .text {
+        font-size: 32px;
+        padding: 32px 16px;
+        color: white;
+    }
 
 }
