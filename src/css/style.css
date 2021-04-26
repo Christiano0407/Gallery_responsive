@@ -1,3 +1,17 @@
+:root {
+    --clr-One: #044BD9;
+    --clr-Two: #0339A6;
+    --clr-Three: #023373;
+    --clr-complement1: #011C40;
+    --clr-complement2: #0D0D0D;
+    --Clr-White: #ffffff;
+    --clr-Black: #000000;
+
+    --font-size-small:12px;
+    --font-size-medium:15rem;
+    --font-size-large:1.8rem; 
+    --font-siize-tittle: 2.4rem;  
+   }
 * {
     margin: 0;
     padding: 0;
@@ -14,5 +28,5 @@ a {
     text-decoration:none;
 }
 body {
-    font-family:sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
